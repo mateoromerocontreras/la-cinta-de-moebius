@@ -1,15 +1,15 @@
-title:              Clean Blog
-email:              your-email@example.com
-description:        A Blog Theme by Start Bootstrap
-author:             Start Bootstrap
+title:              El Blog de Mateo
+email:              mateo.romero.contreras@gmail.com
+description:        Un blog de trabajo
+author:             Mateo Romero
 baseurl:            "/startbootstrap-clean-blog-jekyll"
 url:                "https://startbootstrap.github.io"
 
 # Social Profiles
-twitter_username:   SBootstrap
-github_username:    StartBootstrap
-facebook_username:  StartBootstrap
-instagram_username:  
+twitter_username:
+github_username:    mateoromerocontreras
+facebook_username:
+instagram_username:  mateo_rom_
 linkedin_username:
 
 # Add your google-analytics ID here to activate google analytics
@@ -25,4 +25,3 @@ plugins:
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
 
 theme: jekyll-theme-clean-blog
-
