@@ -1,0 +1,65 @@
+---
+layout: post
+title:  "¿Qué es un Límite en Análisis Matemático?"
+date:   2024-08-20 01:00:00 -0300
+categories: Análisis Matemático
+background: '/img/posts/moebius-banda.jpg'
+author: "Administrador"
+---
+
+---
+
+# ¿Qué es un Límite en Análisis Matemático?
+## Introducción a la noción de límite.
+
+El concepto de **límite** es fundamental en el análisis matemático, siendo la base sobre la cual se construyen otros 
+conceptos clave como la derivada y la integral. Un límite describe el comportamiento de una función cuando la variable 
+independiente se aproxima a un cierto valor.
+
+## Definición Formal
+
+En términos sencillos, el límite de una función _f(x)_ cuando _x_ tiende a un valor _c_ es el valor al que se 
+aproxima _f(x)_ a medida que _x_ se acerca a _c_. Formalmente, se escribe como:
+
+![Límite](https://latex.codecogs.com/svg.image?\lim_{x\to%20c}f(x)=L)
+
+Esto se lee como "el límite de _f(x)_ cuando _x_ tiende a _c_ es _L_". La definición rigurosa del límite, 
+conocida como la definición ($$\epsilon$$ - $$\delta$$), establece que:
+
+![Definición Epsilon-Delta](https://latex.codecogs.com/svg.image?\forall%20\epsilon%20>%200,%20\exists%20\delta%20>%200%20:%200%20<%20|x-c|%20<%20\delta%20\Rightarrow%200%20<%20|f(x)-L|%20<%20\epsilon)
+
+Esta definición formaliza la idea de que podemos hacer que _f(x)_ esté tan cerca de _L_ como queramos simplemente 
+tomando valores de _x_ suficientemente cercanos a _c_.
+
+## Concepto Gráfico
+
+Gráficamente, el límite describe cómo se comporta la gráfica de una función cerca de un punto determinado. 
+Por ejemplo, si el límite de _f(x)_ cuando _x_ tiende a _c_ es _L_, esto significa que conforme _x_
+se acerca a _c_, los puntos de la gráfica de _f(x)_ se aproximan al punto (_c_,_L_), aunque la función no 
+necesariamente deba estar definida en _c_.
+
+![Gráfico de Límite](https://upload.wikimedia.org/wikipedia/commons/0/0f/L%C3%ADmite_de_una_funci%C3%B3n.png)
+
+*Imagen que ilustra cómo la función f(x) se aproxima a L cuando x se aproxima a c.*
+
+## Historia del Desarrollo del Concepto de Límite
+
+El concepto de límite, tal como lo entendemos hoy, surgió en el siglo XIX como parte del desarrollo del cálculo y 
+el análisis matemático. Sin embargo, sus raíces se remontan a tiempos antiguos. Los matemáticos griegos como Arquímedes 
+utilizaban ideas similares para calcular áreas y volúmenes, aunque sin formalizar el concepto.
+
+El avance clave en la definición de límites vino con el trabajo de matemáticos como **Augustin-Louis Cauchy** y 
+**Karl Weierstrass**. En el siglo XIX, Cauchy introdujo una definición más precisa de límite, aunque fue Weierstrass 
+quien estableció la definición ($$\epsilon$$ - $$\delta$$) que se utiliza hoy en día. Este desarrollo fue crucial para 
+formalizar el cálculo y garantizar que los métodos utilizados en análisis fueran rigurosos y libres de contradicciones.
+
+## Importancia en el Análisis Matemático
+
+El límite es esencial para el estudio de la continuidad, la derivación y la integración. Define cómo las funciones se
+comportan cerca de ciertos puntos y permite extender el cálculo a situaciones más complejas, como el estudio de series
+infinitas y el análisis de funciones en varios variables.
+
+El límite es una herramienta poderosa que permite explorar y entender el comportamiento 
+de funciones en puntos específicos y en el infinito, sentando las bases para casi todas las ramas del análisis matemático.
+
+---
