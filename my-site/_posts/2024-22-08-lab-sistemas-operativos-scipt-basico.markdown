@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Navegación con la línea de comandos en Windows"
+title: "Scripts básicos con el síbolo de sistema de Windows"
 date: 2024-08-21 00:00:00 -0300
 categories: Sistemas operativos
 background: '/img/posts/simbolo-sistema-Windows.jpg'
