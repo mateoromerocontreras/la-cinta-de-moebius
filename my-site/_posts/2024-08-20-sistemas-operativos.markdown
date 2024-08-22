@@ -10,7 +10,8 @@ author: "Administrador"
 # Navegar entre Directorios.
 ## Introducción a sistemas operativos
 
-Descripción: Los estudiantes aprenderán a moverse entre diferentes directorios utilizando la línea de comandos. La siguiente tarea está pensada para familiarizarse con la navegación en la línea de comandos de Windows. Mediante la línea de comandos de Windows deberán navegar en la estructura de directorios del sistema operativo.
+Para los usuarios mas experimentados, y sin duda quienes estudian computación, aprender a moverse entre diferentes directorios utilizando la línea de comandos puede resultar útil, aunque sea para entender la estructura de archivos de un sistema opertivo. 
+Las siguientes actividades estan pensadas para familiarizarse con la navegación en la línea de comandos de Windows. Mediante la línea de comandos de Windows podrán navegar en la estructura de directorios del sistema operativo.
 
 ### Actividad 1: Navegar entre Directorios
 Abrir el Símbolo del sistema (cmd.exe):
