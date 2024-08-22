@@ -21,6 +21,8 @@ Crear scripts en el símbolo del sistema de Windows (cmd) es una manera efectiva
    - Guarda el archivo con la extensión `.bat` o `.cmd`. Por ejemplo, puedes nombrarlo `mi_script.bat`.
 
 4. **Ejecutar el script**:
+   
+Para ejecutar el archivo creado es necesario ir al directorio donde está el archivo, para eso se puede abrir una terminal directamente en el escritorio o navegar con los comandos `cd` hasta el mismo.
    - Ve al directorio donde guardaste el archivo batch, abre el símbolo del sistema, y ejecuta el script escribiendo su nombre:
      ```cmd
      mi_script.bat
@@ -28,11 +30,17 @@ Crear scripts en el símbolo del sistema de Windows (cmd) es una manera efectiva
 
 ### **Comandos básicos para incluir en scripts batch**
 
+Ahora daremos unos ejemplos de scripts básicos que se pueden crear y probar.
+
 #### **1. Crear un directorio**
+
+Este es el comando que se puede escribir en un bloc de notas.
    - Comando:
      ```cmd
      mkdir nombre_del_directorio
      ```
+
+Lo podríamos probar de la siguiente manera:
    - Ejemplo de script:
      ```cmd
      @echo off
@@ -41,6 +49,8 @@ Crear scripts en el símbolo del sistema de Windows (cmd) es una manera efectiva
      ```
 
 #### **2. Navegar entre directorios**
+
+Otro comando general podría ser el siguiente, nos llevaría a la ruta especificada.
    - Comando:
      ```cmd
      cd [ruta_del_directorio]
@@ -121,16 +131,18 @@ echo Todos los archivos .txt han sido movidos a la carpeta TextFiles.
 
 #### **2. Backup de archivos**
 Este script copiará todos los archivos de un directorio a un directorio de respaldo.
+Primero deberíamos crear una carpeta de prueba, para no copiar todo el contenido de MisDocumentos. Se podria agregar a este script la creación de una carpeta, llenar esa carpeta con archivos de prueba y copiar todo a la carpeta Backup.
 
 ```cmd
 @echo off
 mkdir C:\MisDocumentos\Backup
-xcopy C:\MisDocumentos\*.* C:\MisDocumentos\Backup /s /i
+xcopy C:\MisDocumentos\CarpetaDePrueba\*.* C:\MisDocumentos\Backup /s /i
 echo Archivos copiados a la carpeta de Backup.
 ```
 
 #### **3. Ejecutar una serie de comandos de mantenimiento**
 Este script realizará tareas comunes de mantenimiento, como limpiar archivos temporales y vaciar la papelera de reciclaje.
+Atención que este script podría borrar archivos importantes, se recomienda probar con discreción.
 
 ```cmd
 @echo off
