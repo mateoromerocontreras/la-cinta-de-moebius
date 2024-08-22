@@ -26,7 +26,7 @@ aproxima _f(x)_ a medida que _x_ se acerca a _c_. Formalmente, se escribe como:
 Esto se lee como "el límite de _f(x)_ cuando _x_ tiende a _c_ es _L_". La definición rigurosa del límite, 
 conocida como la definición ($$\epsilon$$ - $$\delta$$), establece que:
 
-![Definición Epsilon-Delta](https://latex.codecogs.com/svg.image?\forall%20\epsilon%20>%200,%20\exists%20\delta%20>%200%20:%200%20<%20|x-c|%20<%20\delta%20\Rightarrow%200%20<%20|f(x)-L|%20<%20\epsilon)
+![Definición Epsilon-Delta](https://tinyurl.com/bde2nz5y)
 
 Esta definición formaliza la idea de que podemos hacer que _f(x)_ esté tan cerca de _L_ como queramos simplemente 
 tomando valores de _x_ suficientemente cercanos a _c_.
@@ -38,7 +38,7 @@ Por ejemplo, si el límite de _f(x)_ cuando _x_ tiende a _c_ es _L_, esto signif
 se acerca a _c_, los puntos de la gráfica de _f(x)_ se aproximan al punto (_c_,_L_), aunque la función no 
 necesariamente deba estar definida en _c_.
 
-![Gráfico de Límite](https://upload.wikimedia.org/wikipedia/commons/0/0f/L%C3%ADmite_de_una_funci%C3%B3n.png)
+![Gráfico de Límite](http://3.bp.blogspot.com/_pa9SwNuusWY/THWPqCFPCYI/AAAAAAAAAKI/_NstKgYxlK4/s1600/Limite3.png)
 
 *Imagen que ilustra cómo la función f(x) se aproxima a L cuando x se aproxima a c.*
 
