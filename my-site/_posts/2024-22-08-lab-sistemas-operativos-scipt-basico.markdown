@@ -1,3 +1,12 @@
+---
+layout: post
+title: "Navegación con la línea de comandos en Windows"
+date: 2024-08-21 00:00:00 -0300
+categories: Sistemas operativos
+background: '/img/posts/simbolo-sistema-Windows.jpg'
+author: "Administrador"
+---
+
 Crear scripts en el símbolo del sistema de Windows (cmd) es una manera efectiva de automatizar tareas repetitivas y realizar operaciones rápidas. Los scripts en cmd suelen escribirse como archivos batch con la extensión `.bat` o `.cmd`.
 
 ### **¿Cómo crear un script en el símbolo del sistema de Windows?**
