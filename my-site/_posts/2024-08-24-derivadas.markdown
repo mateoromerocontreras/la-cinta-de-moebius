@@ -3,7 +3,7 @@ layout: post
 title: "Derivada en análisis matemático"
 date: 2024-08-24 00:00:00 -0300
 categories: Sistemas operativos
-background: '/img/posts/derivada.png'
+background: '/img/posts/derivada.jpg'
 author: "Administrador"
 tag: math
 categories: math
