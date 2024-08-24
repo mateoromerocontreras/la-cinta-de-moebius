@@ -23,9 +23,7 @@ La derivada de una función en un punto mide la tasa de cambio instantáneo de l
 la derivada de una función _f(x)_ en un punto _x = a_ se define como el límite de la razón de cambio promedio
 de la función cuando el incremento en _x_ tiende a cero:
 
-\[
-f'(a) = \lim_{h \to 0} \frac{f(a + h) - f(a)}{h}
-\]
+![Derivada](https://latex.codecogs.com/svg.image?f%27(a)=\lim_{h\to%200}\frac{f(a+h)-f(a)}{h})
 
 Aquí, _h_ representa un pequeño cambio en _x_. Si este límite existe, decimos que _f(x)_ es diferenciable en _x = a_ y _f'(a)_ 
 es la derivada de _f(x)_ en _a_.
@@ -36,7 +34,7 @@ Gráficamente, la derivada de una función en un punto _x = a_ representa la pen
 Si pensamos en la función _f(x)_ como una curva en el plano, entonces la derivada nos dice qué tan empinada es la curva en
 _x = a_ y en qué dirección está inclinada.
 
-![Concepto de Derivada](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Tangent_function2.svg/1024px-Tangent_function2.svg.png)
+![Concepto de Derivada](https://www.hiru.eus/documents/21564/941784/matematicas_041_03p/0c42e830-b99b-4065-922f-4415bfd55953?t=1260841057875)
 
 _Imagen que ilustra la tangente a la curva _y = f(x)_ en el punto _x = a_, donde la pendiente de la tangente es igual a 
 _f'(a)._
