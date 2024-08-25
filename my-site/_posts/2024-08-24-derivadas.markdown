@@ -36,8 +36,8 @@ _x = a_ y en qué dirección está inclinada.
 
 ![Concepto de Derivada](https://www.hiru.eus/documents/21564/941784/matematicas_041_03p/0c42e830-b99b-4065-922f-4415bfd55953?t=1260841057875)
 
-_Imagen que ilustra la tangente a la curva _y = f(x)_ en el punto _x = a_, donde la pendiente de la tangente es igual a 
-_f'(a)._
+_Imagen que ilustra la tangente a la curva y = f(x) en el punto x = a, donde la pendiente de la tangente es igual a 
+f'(a)._
 
 Si la derivada es positiva, la función está aumentando en ese punto; si es negativa, la función está disminuyendo. 
 Si la derivada es cero, la pendiente de la tangente es horizontal, lo que podría indicar un máximo, un mínimo o un punto 
@@ -46,11 +46,11 @@ de inflexión.
 ## Historia del Desarrollo del Concepto de Derivada
 
 El concepto de derivada, tal como lo conocemos hoy, fue desarrollado durante el siglo XVII, en el contexto del surgimiento
-del cálculo. Dos matemáticos en particular, **Isaac Newton** y **Gottfried Wilhelm Leibniz**, son considerados los padres del 
+del cálculo. Dos matemáticos en particular, **Newton** y **Leibniz**, son considerados los padres del 
 cálculo diferencial.
 
 Newton utilizó el concepto de derivada para describir el movimiento y los cambios en la física, denominando su concepto como 
-"fluxiones". Leibniz, por su parte, introdujo la notación que usamos hoy en día, como _\frac{dy}{dx}_, para representar la 
+"fluxiones". Leibniz, por su parte, introdujo la notación que usamos hoy en día, como ![_\frac{dy}{dx}_](https://latex.codecogs.com/svg.image?\frac{dy}{dx}), para representar la 
 derivada de _y_ con respecto a _x_.
 
 El desarrollo de la derivada fue un hito en la historia de las matemáticas, permitiendo resolver problemas que antes eran 
