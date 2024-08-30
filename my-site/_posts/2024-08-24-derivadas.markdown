@@ -66,18 +66,3 @@ velocidad, la aceleración y otros cambios en las magnitudes físicas.
 
 Además, la derivada es el punto de partida para muchos otros conceptos en el análisis, como las ecuaciones diferenciales y
 las series de Taylor, que permiten aproximar funciones con polinomios. 
-
-```yaml
----
-math: true
----
-<!-- Block math, keep all blank lines -->
-
-$$
-\frac{dy}{dx}
-$$
-
-<!-- Equation numbering, keep all blank lines  -->
-sigue texto $$ \frac{dy}{dx} $$
----
-```
