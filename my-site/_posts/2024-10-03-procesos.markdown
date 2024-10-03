@@ -1,3 +1,14 @@
+---
+layout: post
+title: "Procesos en Sistemas Operativos"
+date: 2024-10-03 00:00:00 -0300
+categories: Sistemas operativos
+background: '/img/posts/sistema-operativo-1.jpg'
+author: "Administrador"
+tag: operating-systems
+categories: operating-systems
+---
+
 # Procesos en Sistemas Operativos
 
 ## Introducción
