@@ -1,0 +1,83 @@
+# Procesos en Sistemas Operativos
+
+## Introducción
+
+En cualquier **sistema operativo moderno**, la gestión de procesos es uno de los pilares fundamentales. Los procesos permiten que múltiples programas se ejecuten simultáneamente y de forma eficiente, maximizando el uso de los recursos del sistema. Sin embargo, el sistema operativo debe encargarse de tareas clave como la **asignación de recursos**, la **protección de datos** y la **sincronización** entre procesos.
+
+Este artículo aborda conceptos esenciales relacionados con los procesos en sistemas operativos, como su definición, el **Bloque de Control de Procesos (BCP)**, la **traza de los procesos** y el **modelo de dos estados**, que permite entender la ejecución y el control de los mismos.
+
+## ¿Qué es un proceso?
+
+Un **proceso** es, en términos simples, un **programa en ejecución**. Sin embargo, es mucho más que solo código: se trata de una **entidad compleja** que incluye tanto el programa como los datos y recursos necesarios para su ejecución.
+
+Podemos definir un proceso como:
+
+- Una instancia de un programa ejecutado en un procesador.
+- Una unidad de actividad que implica la ejecución de una secuencia de instrucciones.
+- Un conjunto de recursos, como **memoria**, **entradas/salidas** y **permisos**, que son gestionados por el sistema operativo.
+
+Cuando el sistema operativo crea un proceso, este no es solo un programa en ejecución, sino que incluye elementos adicionales como:
+
+- **Identificador del proceso (PID):** Un número único que distingue un proceso de otro.
+- **Estado del proceso:** Indicador de si el proceso está ejecutándose, esperando, o detenido.
+- **Contador de programa:** La dirección de la próxima instrucción a ejecutar en el programa.
+- **Punteros de memoria:** Punteros que apuntan a las áreas de memoria asignadas al proceso.
+- **Datos de contexto del procesador:** Que incluyen el valor de los registros del procesador durante la ejecución del proceso.
+
+Este conjunto de elementos permite al sistema operativo **controlar** y **supervisar** los procesos, garantizando que puedan detenerse y reanudarse sin perder información ni corromper datos.
+
+## El Bloque de Control de Procesos (BCP)
+
+El **Bloque de Control de Procesos (BCP)** es la estructura de datos esencial que almacena toda la información necesaria sobre un proceso. Es crucial para que el sistema operativo pueda **interrumpir** y **reanudar** un proceso sin pérdida de información. Entre la información almacenada en el BCP se encuentran:
+
+- **Estado del proceso:** Si está ejecutándose, listo para ejecutarse o bloqueado.
+- **Contador de programa:** Dirección de la próxima instrucción.
+- **Datos del contexto del procesador:** Que incluyen registros y otras configuraciones que permiten reanudar el proceso sin errores.
+
+### ¿Por qué es importante el BCP?
+
+El BCP es vital para la **multiprogramación**. En un sistema monoprocesador, solo un proceso puede ejecutarse a la vez. Cuando el sistema operativo decide cambiar de un proceso a otro, el estado del proceso actual se guarda en su BCP, de manera que, cuando se retome, este pueda continuar desde el mismo punto en el que fue interrumpido.
+
+Esta capacidad de detener y reanudar procesos de forma eficiente permite la **ejecución concurrente** de múltiples procesos, mejorando el rendimiento general del sistema.
+
+## Estados de los procesos
+
+Los procesos pasan por varios estados durante su ciclo de vida. Los dos estados más básicos son:
+
+1. **Ejecutando:** El proceso está siendo ejecutado por el procesador.
+2. **No ejecutando:** El proceso está listo para ejecutarse o está esperando por algún recurso.
+
+El **sistema operativo** es el encargado de mover los procesos entre estos estados según la disponibilidad de los recursos y las políticas de planificación. El concepto de **traza de proceso** se refiere a la secuencia de instrucciones que un proceso ejecuta durante su ciclo de vida.
+
+### La traza de los procesos
+
+Cada proceso ejecuta una secuencia de instrucciones que se conoce como su **traza**. En un sistema de **multiprogramación**, donde varios procesos comparten el procesador, las trazas de los procesos se entrelazan, lo que significa que el procesador cambia entre distintos procesos para darles tiempo de ejecución. 
+
+Este entrelazado es manejado por el sistema operativo y es fundamental para asegurar que el procesador no quede inactivo y que cada proceso reciba el tiempo de ejecución necesario. 
+
+## Modelo de dos estados
+
+El modelo más simple para representar los estados de un proceso es el **modelo de dos estados**, en el cual un proceso puede estar en uno de estos dos:
+
+- **Ejecutando:** Cuando el proceso está en uso activo del procesador.
+- **No ejecutando:** Cuando el proceso está esperando su turno para ser ejecutado.
+
+Cuando el sistema operativo crea un proceso, este es colocado en estado **No ejecutando**. Luego, el proceso es movido a **Ejecutando** cuando el sistema decide asignarle el procesador. En el transcurso de su vida, el proceso puede alternar entre estos dos estados, dependiendo de la disponibilidad del procesador y otros factores.
+
+### Diagrama de colas
+
+Los procesos que no están en estado ejecutando se colocan en una **cola de espera**. Esta cola es gestionada por el sistema operativo, que selecciona los procesos de ella según diversos criterios como **prioridad** o el tiempo que han estado esperando.
+
+Cada proceso en la cola tiene un puntero a su BCP, lo que permite al sistema operativo acceder rápidamente a la información necesaria para gestionar el proceso cuando se le asigne el procesador.
+
+## Para terminar
+
+Los **procesos** son esenciales para la ejecución eficiente de programas en un sistema operativo. En este artículo hemos explorado:
+
+- La **definición** y características clave de un proceso.
+- La importancia del **Bloque de Control de Procesos (BCP)** para la gestión eficiente de los mismos.
+- La **traza** de los procesos y cómo el sistema operativo entrelaza la ejecución de múltiples procesos.
+- El **modelo de dos estados**, que es el concepto más básico de gestión de procesos.
+
+En futuros artículos, profundizaremos en modelos más avanzados de gestión de procesos, como el **modelo de cinco estados** y la **gestión de procesos suspendidos**.
+
