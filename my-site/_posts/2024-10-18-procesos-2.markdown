@@ -7,6 +7,7 @@ background: '/img/posts/simbolo-sistema-Windows.jpg'
 author: "Mateo Romero Contreras"
 ---
 
+
 En la gestión de sistemas operativos, no solo es importante entender qué es un proceso y cómo se ejecuta, sino también **cómo se crean** y **cómo terminan**. Además, con el fin de gestionar más eficientemente los procesos, se utiliza el **modelo de cinco estados**, que extiende el concepto básico de dos estados (ejecutando y no ejecutando) para añadir más granularidad al control de procesos.
 
 En este artículo, exploraremos cómo se crean y terminan los procesos, las razones detrás de estos eventos, y profundizaremos en el **modelo de procesos de cinco estados**, que proporciona una visión más detallada del ciclo de vida de un proceso.
