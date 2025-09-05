@@ -1,0 +1,85 @@
+---
+layout: post
+title:  "¿Qué es la BIOS?"
+date:   2025-09-04 01:00:00 -0300
+categories: Sistemas Operativos
+background: '/img/posts/bios.jpg'
+author: "Administrador"
+---
+
+### 🧠 ¿Qué es la BIOS?
+
+**BIOS** significa **Basic Input/Output System**. Es un firmware (software básico) almacenado en un chip de memoria ROM o Flash ubicado en la placa base (motherboard) de la computadora. Su función es iniciar el hardware y preparar el sistema para que el sistema operativo pueda arrancar.
+
+---
+
+### ⚙️ Funciones principales de la BIOS:
+
+* **Inicializa y prueba el hardware (POST)**: Verifica CPU, RAM, teclado, etc.
+* **Configura dispositivos**: Determina qué disco duro, unidad óptica o dispositivo USB se usará para arrancar.
+* **Carga el cargador de arranque (bootloader)** desde el disco duro u otro medio.
+* **Ofrece una interfaz de configuración** accesible con una tecla especial (como `DEL`, `F2`, `ESC`) al encender el equipo.
+
+---
+
+### 🔁 ¿Cómo es la secuencia de arranque de una PC?
+
+Este proceso ocurre desde que presionas el botón de encendido hasta que el sistema operativo está listo:
+
+---
+
+#### 🔹 **1. Energía y activación del CPU**
+
+* Al presionar el botón, la **fuente de poder (PSU)** suministra energía.
+* La placa base activa la **BIOS**, y el CPU comienza la ejecución desde una dirección fija en la ROM.
+
+---
+
+#### 🔹 **2. POST (Power-On Self Test)**
+
+* La BIOS ejecuta una serie de **pruebas automáticas**:
+
+  * RAM, CPU, teclado, tarjeta de video.
+  * Detecta discos duros y otros periféricos.
+* Si hay errores (ej: falta de RAM), emite códigos sonoros o muestra mensajes.
+
+---
+
+#### 🔹 **3. Detección de dispositivos de arranque**
+
+* La BIOS busca un **dispositivo de arranque válido** según el orden configurado (ej. USB → SSD → CD).
+* Busca un **registro de arranque maestro (MBR)** o **tabla de particiones GUID (GPT)**.
+
+---
+
+#### 🔹 **4. Carga del Bootloader**
+
+* Si encuentra un **bootloader** (como GRUB o Windows Boot Manager), lo carga en la RAM.
+* Este bootloader es el primer código del **sistema operativo** y se encarga de continuarlo.
+
+---
+
+#### 🔹 **5. Inicio del Sistema Operativo**
+
+* El bootloader carga el **núcleo (kernel)** del sistema operativo.
+* Luego se inicializan los **servicios del sistema**, controladores y finalmente la **interfaz de usuario** (GUI o terminal).
+
+---
+
+### 🖥️ BIOS vs. UEFI (Evolución Moderna)
+
+| Característica        | BIOS                | UEFI                            |
+| --------------------- | ------------------- | ------------------------------- |
+| Año de creación       | 1975                | 2005                            |
+| Interfaz              | Texto               | Gráfica y con mouse             |
+| Tamaño de disco       | Máx. 2 TB (con MBR) | Hasta 9 ZB (con GPT)            |
+| Seguridad             | Limitada            | Secure Boot, validación firmada |
+| Velocidad de arranque | Menor               | Mayor                           |
+
+---
+
+### 🔐 Seguridad
+
+BIOS y UEFI permiten establecer **contraseñas**, bloquear configuraciones y proteger el arranque contra virus mediante **Secure Boot** (UEFI).
+
+
