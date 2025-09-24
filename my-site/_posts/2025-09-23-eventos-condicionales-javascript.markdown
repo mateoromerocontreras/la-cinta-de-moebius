@@ -7,7 +7,7 @@ background: '/img/posts/bios.jpg'
 author: "Mateo Romero"
 ---
 
-## 🎯 **En este artículo vamos a buscar los siguientes objetivos:**
+## 🎯 **En este artículo vamos a buscar conseguir los siguientes objetivos:**
 
 * Entender qué son los eventos `onclick` y `onmouseover`.
 * Aplicar **condicionales (`if`, `else if`, `else`)** para cambiar el comportamiento según la situación.
@@ -114,7 +114,7 @@ function verificarEdad() {
 
 ---
 
-👉 Con esto los alumnos ya pueden:
+👉 Con esto ya puedes:
 
 * Manejar **eventos simples**.
 * Usar **condicionales** para tomar decisiones.
