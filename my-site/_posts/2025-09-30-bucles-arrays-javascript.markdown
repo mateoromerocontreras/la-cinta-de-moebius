@@ -1,16 +1,13 @@
 ---
 layout: post
-title:  "Bucles y Arrays en JavaScript"
+title:  "📚 Bucles y Arrays en JavaScript"
 date:   2025-09-30 01:00:00 -0300
 categories: Javascript
 background: '/img/posts/bios.jpg'
 author: "Mateo Romero"
 ---
 
-# 📚 Bucles y Arrays en JavaScript
-
 ## En este artículo investigaremos sobre los siguientes temas:
-
 * Comprender qué son los **arrays** y cómo almacenan varios valores en una sola variable.
 * Usar **bucles (for, while)** para repetir instrucciones.
 * Combinar arrays y bucles en ejemplos prácticos.
